@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Jenis font dasar */
+    line-height: 1.6;                           /* Jarak antar baris teks */
+    color: #333333;                             /* Warna teks utama */
+    background-color: #ffffff;                  /* Warna latar belakang halaman */
+}
+
+/* 4. PENANGANAN ELEMEN MEDIA & LINK DASAR */
+img {
+    max-width: 100%;    /* Mencegah gambar keluar dari ukuran layarnya */
+    height: auto;
+}
+
+a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan/link */
+    color: inherit;        /* Mengikuti warna teks di sekitarnya */
+}
