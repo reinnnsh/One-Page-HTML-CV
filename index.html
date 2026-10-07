@@ -6,133 +6,78 @@
     <title>CV - Reisya Putri Ramadhani</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    margin: 0;
-    padding: 40px 20px;
-    font-family: Arial, sans-serif;
-    background-color: #fbcdff;
-">
+<body>
 
-    <!-- KOTAK UTAMA (CONTAINER CV) -->
-    <div style="
-        background-color: #d2abd6;
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        max-width: 650px;
-    ">
+    <div class="cv-container">
 
-        <!-- 1. HEADER / FOTO & IDENTITAS DIRI -->
-        <div style="text-align: center; margin-bottom: 25px;">
-            <!-- FOTO PROFIL -->
-            <img src="foto.jpeg" alt="Foto Reisya Putri Ramadhani" style="
-                width: 130px;
-                height: 130px;
-                border-radius: 50%;
-                border: 4px solid #a0387a;
-                margin-bottom: 15px;
-                object-fit: cover;
-            ">
+        <div class="header">
+            <img src="foto.jpeg" alt="Foto Reisya Putri Ramadhani" class="profile-img">
             
-            <h1 style="color: #5a2a4a; margin: 0 0 5px 0; font-size: 1.8rem;">Reisya Putri Ramadhani</h1>
-            <p style="color: #a0387a; font-size: 1.1rem; margin: 0 0 5px 0; font-weight: bold;">Mahasiswi Informatika — ITENAS</p>
-            <p style="color: #4a3b47; font-size: 0.95rem; margin: 0; font-weight: bold;">NRP: 152025112</p>
+            <h1 class="name">Reisya Putri Ramadhani</h1>
+            <p class="subtitle">Mahasiswi Informatika — ITENAS</p>
+            <p class="nrp">NRP: 152025112</p>
         </div>
 
-        <!-- 2. RINGKASAN PROFIL -->
-        <div style="
-            background-color: #ffffff;
-            padding: 15px 20px;
-            border-radius: 10px;
-            border-left: 5px solid #a0387a;
-            margin-bottom: 20px;
-        ">
-            <h3 style="color: #a0387a; margin: 0 0 8px 0;">Profil Singkat</h3>
-            <p style="color: #4a3b47; font-size: 0.95rem; line-height: 1.5; margin: 0;">
+        <div class="section section-bordered">
+            <h3 class="section-title title-profil">Profil Singkat</h3>
+            <p class="text-content">
                 Mahasiswi program studi Informatika di Institut Teknologi Nasional (ITENAS) yang memiliki minat besar dalam kemajuan teknologi dan pengolahan data. Memiliki pengalaman dalam mengelola data registrasi pengunjung, menjalin komunikasi profesional dengan dosen dan alumni, serta memberikan pelayanan informasi yang responsif kepada pihak-pihak terkait. Memiliki ketelitian tinggi serta dapat bekerja sama dengan baik dalam tim.
             </p>
         </div>
 
-        <!-- 3. INFORMASI KONTAK -->
-        <div style="
-            background-color: #ffffff;
-            padding: 15px 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        ">
-            <h3 style="color: #a0387a; margin: 0 0 10px 0;">Kontak</h3>
-            <p style="color: #4a3b47; margin: 0 0 6px 0; font-size: 0.95rem;"><strong>Email:</strong> putrireisya051006@gmail.com</p>
-            <p style="color: #4a3b47; margin: 0 0 6px 0; font-size: 0.95rem;"><strong>No. HP / WhatsApp:</strong> 089523939967</p>
-            <p style="color: #4a3b47; margin: 0; font-size: 0.95rem;"><strong>Alamat:</strong> Jl. Inhoftank no. 35, Bandung</p>
+        <div class="section">
+            <h3 class="section-title title-kontak">Kontak</h3>
+            <p class="contact-item"><strong>Email:</strong> putrireisya051006@gmail.com</p>
+            <p class="contact-item"><strong>No. HP / WhatsApp:</strong> 089523939967</p>
+            <p class="contact-item mb-0"><strong>Alamat:</strong> Jl. Inhoftank no. 35, Bandung</p>
         </div>
 
-        <!-- 4. PENDIDIKAN -->
-        <div style="
-            background-color: #ffffff;
-            padding: 15px 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        ">
-            <h3 style="color: #a0387a; margin: 0 0 12px 0;">Pendidikan</h3>
-            <div style="margin-bottom: 10px;">
-                <p style="color: #4a3b47; font-weight: bold; margin: 0 0 2px 0;">S1 Informatika — Institut Teknologi Nasional (ITENAS)</p>
-                <p style="color: #7f8c8d; font-size: 0.85rem; margin: 0;">2025 - Sekarang</p>
+        <div class="section">
+            <h3 class="section-title title-pendidikan">Pendidikan</h3>
+            <div class="list-item">
+                <p class="item-title">S1 Informatika — Institut Teknologi Nasional (ITENAS)</p>
+                <p class="item-year">2025 - Sekarang</p>
             </div>
             <div>
-                <p style="color: #4a3b47; font-weight: bold; margin: 0 0 2px 0;">MIPA — SMA Pasundan 1 Bandung</p>
-                <p style="color: #7f8c8d; font-size: 0.85rem; margin: 0;">2025</p>
+                <p class="item-title">MIPA — SMA Pasundan 1 Bandung</p>
+                <p class="item-year">2025</p>
             </div>
         </div>
 
-        <!-- 5. PENGALAMAN KERJA & ORGANISASI -->
-        <div style="
-            background-color: #ffffff;
-            padding: 15px 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        ">
-            <h3 style="color: #a0387a; margin: 0 0 15px 0;">Pengalaman Kerja & Organisasi</h3>
+        <div class="section">
+            <h3 class="section-title title-pengalaman">Pengalaman Kerja & Organisasi</h3>
 
-            <!-- Pengalaman 1 -->
-            <div style="margin-bottom: 12px; border-bottom: 1px solid #f3d9fa; padding-bottom: 10px;">
-                <p style="color: #4a3b47; font-weight: bold; margin: 0 0 2px 0;">Panitia KPU HMIF (Bagian Administrasi)</p>
-                <p style="color: #7f8c8d; font-size: 0.85rem; margin: 0 0 6px 0;">13 November 2025 – 13 Februari 2026</p>
-                <ul style="color: #4a3b47; font-size: 0.9rem; margin: 0; padding-left: 20px; line-height: 1.4;">
+            <div class="exp-item">
+                <p class="item-title">Panitia KPU HMIF (Bagian Administrasi)</p>
+                <p class="item-date">13 November 2025 – 13 Februari 2026</p>
+                <ul class="exp-list">
                     <li>Mengelola alur komunikasi kepada Alumni, Dosen, dan pihak-pihak terkait.</li>
                     <li>Membagikan surat-surat fisik dan digital kepada pihak-pihak terkait.</li>
                 </ul>
             </div>
 
-            <!-- Pengalaman 2 -->
-            <div style="margin-bottom: 12px; border-bottom: 1px solid #f3d9fa; padding-bottom: 10px;">
-                <p style="color: #4a3b47; font-weight: bold; margin: 0 0 2px 0;">Panitia Open Campus ITENAS (Bagian Registrasi)</p>
-                <p style="color: #7f8c8d; font-size: 0.85rem; margin: 0 0 6px 0;">9 Desember 2025 – 14 Desember 2025</p>
-                <ul style="color: #4a3b47; font-size: 0.9rem; margin: 0; padding-left: 20px; line-height: 1.4;">
+            <div class="exp-item">
+                <p class="item-title">Panitia Open Campus ITENAS (Bagian Registrasi)</p>
+                <p class="item-date">9 Desember 2025 – 14 Desember 2025</p>
+                <ul class="exp-list">
                     <li>Bertanggung jawab untuk mendata setiap pengunjung yang datang ke acara Open Campus.</li>
                     <li>Memberikan informasi singkat mengenai gambaran kasar tentang alur acara Open Campus.</li>
                 </ul>
             </div>
 
-            <!-- Pengalaman 3 -->
-            <div style="margin-bottom: 12px; border-bottom: 1px solid #f3d9fa; padding-bottom: 10px;">
-                <p style="color: #4a3b47; font-weight: bold; margin: 0 0 2px 0;">LO (Liaison Officer) Wisudawan</p>
-                <p style="color: #7f8c8d; font-size: 0.85rem; margin: 0 0 6px 0;">1 Oktober 2025 – 23 November 2025</p>
-                <ul style="color: #4a3b47; font-size: 0.9rem; margin: 0; padding-left: 20px; line-height: 1.4;">
+            <div class="exp-item">
+                <p class="item-title">LO (Liaison Officer) Wisudawan</p>
+                <p class="item-date">1 Oktober 2025 – 23 November 2025</p>
+                <ul class="exp-list">
                     <li>Memberikan informasi tentang persiapan dari sebelum wisuda hingga acara After Party.</li>
                     <li>Mendampingi serta mengarahkan keluarga wisudawan ke tempat yang harus dituju.</li>
                 </ul>
             </div>
 
-            <!-- Pengalaman 4 -->
             <div>
-                <p style="color: #4a3b47; font-weight: bold; margin: 0 0 2px 0;">Freelance Digital Content Localizer</p>
-                <p style="color: #7f8c8d; font-size: 0.85rem; margin: 0 0 6px 0;">26 Juli 2025 – 31 Oktober 2025</p>
-                <ul style="color: #4a3b47; font-size: 0.9rem; margin: 0; padding-left: 20px; line-height: 1.4;">
+                <p class="item-title">Freelance Digital Content Localizer</p>
+                <p class="item-date">26 Juli 2025 – 31 Oktober 2025</p>
+                <ul class="exp-list">
                     <li>Melakukan pembersihan elemen teks asli (Image Cleaning).</li>
                     <li>Menggambar ulang latar belakang yang terhapus saat pembersihan teks (Redrawing).</li>
                     <li>Mengelola tipografi dan estetika visual dengan menyesuaikan pemilihan font (Typesetting).</li>
@@ -141,34 +86,29 @@
             </div>
         </div>
 
-        <!-- 6. KEAHLIAN (HARD SKILLS & SOFT SKILLS) -->
-        <div style="
-            background-color: #ffffff;
-            padding: 15px 20px;
-            border-radius: 10px;
-        ">
-            <h3 style="color: #a0387a; margin: 0 0 12px 0;">Keahlian</h3>
+        <div class="section">
+            <h3 class="section-title title-keahlian">Keahlian</h3>
             
-            <p style="color: #4a3b47; font-weight: bold; font-size: 0.9rem; margin: 0 0 8px 0;">Hard Skills:</p>
-            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 15px;">
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Microsoft Excel</span>
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Google Sheets</span>
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Pascal</span>
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Python</span>
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Adobe Photoshop</span>
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Clip Studio Paint</span>
-                <span style="background-color: #f3d9fa; color: #a0387a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Ibis Paint</span>
+            <p class="skill-category">Hard Skills:</p>
+            <div class="skill-container mb-15">
+                <span class="skill-badge hard-skill">Microsoft Excel</span>
+                <span class="skill-badge hard-skill">Google Sheets</span>
+                <span class="skill-badge hard-skill">Pascal</span>
+                <span class="skill-badge hard-skill">Python</span>
+                <span class="skill-badge hard-skill">Adobe Photoshop</span>
+                <span class="skill-badge hard-skill">Clip Studio Paint</span>
+                <span class="skill-badge hard-skill">Ibis Paint</span>
             </div>
 
-            <p style="color: #4a3b47; font-weight: bold; font-size: 0.9rem; margin: 0 0 8px 0;">Soft Skills:</p>
-            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-                <span style="background-color: #e8c4ee; color: #5a2a4a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Komunikasi Profesional</span>
-                <span style="background-color: #e8c4ee; color: #5a2a4a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Kerja Sama Tim</span>
-                <span style="background-color: #e8c4ee; color: #5a2a4a; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Ketelitian Tinggi</span>
+            <p class="skill-category">Soft Skills:</p>
+            <div class="skill-container">
+                <span class="skill-badge soft-skill">Komunikasi Profesional</span>
+                <span class="skill-badge soft-skill">Kerja Sama Tim</span>
+                <span class="skill-badge soft-skill">Ketelitian Tinggi</span>
             </div>
         </div>
 
-    </div> <!-- Penutup KOTAK UTAMA -->
+    </div> 
 
 </body>
 </html>
